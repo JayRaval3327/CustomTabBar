@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Views.swift
 //  CustomTabBar
 //
 //  Created by Jay Raval on 2024-03-18.
@@ -10,10 +10,10 @@ import SwiftUI
 struct ViewOne: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "house")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("View One")
+            Text("Home")
         }
         .padding()
     }
@@ -22,10 +22,10 @@ struct ViewOne: View {
 struct ViewTwo: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "heart")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("View Two")
+            Text("Messages")
         }
         .padding()
     }
@@ -34,10 +34,10 @@ struct ViewTwo: View {
 struct ViewThree: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "heart")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("View Three")
+            Text("Profile")
         }
         .padding()
     }
@@ -46,22 +46,10 @@ struct ViewThree: View {
 struct ViewFour: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "person")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("View Four")
-        }
-        .padding()
-    }
-}
-
-struct ViewFive: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("View Five")
         }
         .padding()
     }
